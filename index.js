@@ -1,5 +1,7 @@
 const btn = document.querySelector('.btn');
 btn.onclick = randomAZ;
+const p = document.querySelector('.p');
+p.id = document.querySelector('p');
 
 function randomAZ() {
     var randomUpperCase = Math.floor(Math.random() * 2);
